@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans|Pacifico|Quicksand|Rubik');
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
 body {
 	background-color: black;
 	background: url(img/coffee-beans-from-above_4460x4460.jpg
@@ -17,4 +26,5 @@ body {
 header {
 	border-radius: 10px;
 	background-color: brown;
+	padding: 20px;
 }
