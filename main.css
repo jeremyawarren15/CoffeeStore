@@ -15,26 +15,33 @@ body {
 	background-size: cover;
 }
 
-.content-wrapper {
-	width: 900px;
+.wrapper {
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 header {
 	margin-top: 45px;
+	margin-bottom: 45px;
 }
 
 header > h1 {
 	font-family: 'Pacifico', cursive;
 	-ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-    width: auto;
+    transform: rotate(-10deg);    
     display: inline-block;
     color: rgba(222, 184, 135, 1);
-    font-size: 50px;
     text-shadow: 2px 2px 0px #8B4513;
+    font-size: 50px;
+}
+
+section > h2 {
+	color: rgba(222, 184, 135, 1);
+   	font-family: 'Pacifico', cursive;
+   	color: #8B4513;
+   	margin-bottom: 20px;
 }
 
 nav {
@@ -51,4 +58,22 @@ nav > a {
 
 nav > a:hover {
 	color: rgba(252, 214, 165, 1);
+}
+
+.product-area {
+	width: 75%;
+	background-color: rgba(252, 214, 165, 1);
+	-webkit-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
+	-moz-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
+	box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
+	overflow: auto;
+	font-family: 'Oswald', sans-serif;
+	color: #8B4513;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 30px;
 }
