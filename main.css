@@ -21,6 +21,10 @@ body {
 	margin-right: auto;
 }
 
+header {
+	margin-top: 45px;
+}
+
 header > h1 {
 	font-family: 'Pacifico', cursive;
 	-ms-transform: rotate(-10deg); /* IE 9 */
@@ -28,7 +32,23 @@ header > h1 {
     transform: rotate(-10deg);
     width: auto;
     display: inline-block;
-    color: #8B4513;
+    color: rgba(222, 184, 135, 1);
     font-size: 50px;
-    text-shadow: 2px 2px 0px rgba(222, 184, 135, 1);
+    text-shadow: 2px 2px 0px #8B4513;
+}
+
+nav {
+	font-family: 'Pacifico', cursive;
+	float: right;
+}
+
+nav > a {
+	color: rgba(222, 184, 135, 1);
+	text-decoration: none;
+	font-size: 25px;
+	text-shadow: .7px .7px 0px #8B4513;
+}
+
+nav > a:hover {
+	color: rgba(252, 214, 165, 1);
 }
