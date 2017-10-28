@@ -85,6 +85,19 @@ nav > a:hover {
 	border-radius: 5px;
 	float: left;
 	min-height: 50px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.product-area > h2 {
+	display: inline-block;
+	width: 100%;
 }
 
 p {
@@ -113,6 +126,9 @@ p {
 	display: inline-block;
 	border-radius: 5px;
 	margin-bottom: 20px;
+
+	-webkit-flex: none;
+	flex: none;
 }
 
 .product-photo {
