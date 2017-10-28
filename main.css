@@ -72,8 +72,12 @@ nav > a:hover {
 	color: rgba(252, 214, 165, 1);
 }
 
+nav > a.active {
+	color: #FCD6A5;
+}
+
 .product-area {
-	width: 75%;
+	width: 100%;
 	background-color: rgba(252, 214, 165, 1);
 	-webkit-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
 	-moz-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
@@ -103,22 +107,6 @@ nav > a:hover {
 p {
 	font-size: 18px;
 	line-height: 30px;
-}
-
-.sidebar {
-	display: inline-block;
-	float: right;
-	width: 22%;
-	background-color: rgba(252, 214, 165, 1);
-	-webkit-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
-	-moz-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
-	box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
-	overflow: auto;
-	font-family: 'Oswald', sans-serif;
-	color: #8B4513;
-	padding: 20px;
-	border-radius: 5px;
-	min-height: 50px;
 }
 
 .product {
