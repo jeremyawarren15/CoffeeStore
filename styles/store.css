@@ -92,8 +92,6 @@ nav > a.active {
 	flex-flow: row wrap;
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
-	margin-right: 5px;
-	margin-left: 5px;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
@@ -140,4 +138,19 @@ p {
 	color: #402F28;
 	background-color: #B69580;
 	border: none;
+}
+
+footer {
+	float: left;
+	clear: both;
+	margin: 25px 0;
+	width: 100%;
+	background-color: rgba(252, 214, 165, 1);
+	overflow: auto;
+	font-family: 'Oswald', sans-serif;
+	color: #8B4513;
+	padding: 20px;
+	border-radius: 5px;
+	min-height: 50px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }

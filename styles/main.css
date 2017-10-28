@@ -49,7 +49,7 @@ header > h1 {
     font-size: 50px;
 }
 
-section {
+section, footer {
 	display: inline-block;
 	background-color: rgba(252, 214, 165, 1);
 	overflow: auto;
@@ -59,6 +59,13 @@ section {
 	border-radius: 5px;
 	min-height: 50px;
 	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+footer {
+	float: left;
+	clear: both;
+	margin: 25px 0;
+	width: 100%;
 }
 
 #content-area {
