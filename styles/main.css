@@ -20,7 +20,7 @@ body {
 	background-color: black;
 	background: linear-gradient(
 		rgba(182,149,128,.4),rgba(182,149,128,.4)), 
-		url(img/coffee-beans-from-above_4460x4460.jpg) no-repeat center center fixed; 
+		url(../img/coffee-beans-from-above_4460x4460.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,18 +51,26 @@ header > h1 {
 
 section {
 	display: inline-block;
-	float: right;
-	width: 22%;
 	background-color: rgba(252, 214, 165, 1);
-	-webkit-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
-	-moz-box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
-	box-shadow: 2px 2px 0px 0.5px rgba(139,69,19,1);
 	overflow: auto;
 	font-family: 'Oswald', sans-serif;
 	color: #8B4513;
 	padding: 20px;
 	border-radius: 5px;
 	min-height: 50px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+#content-area {
+	float: left;
+	width: 72%;
+	line-height: 30px;
+}
+
+#sidebar {
+	float: right;
+	width: 25%;
+	line-height: 30px;
 }
 
 section > h2 {
