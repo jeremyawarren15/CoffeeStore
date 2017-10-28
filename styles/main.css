@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pacifico');
 /*
-.sidebar {
+HOW TO USE WEB FONTS
+font-family: 'Pacifico', cursive;
+font-family: 'Oswald', sans-serif;
+*/
+
+/*
+********COLORS********
+https://www.canva.com/color-palette/
+Yellow: #FCD6A5;
+Rosy Brown: #B69580;
+Dim Gray: #896A5C;
+Dim Gray 2: #6B5145;
+Dark Olive Green: #402F28;
+Black: #171112;
+*/
+
+body {
+	background-color: black;
+	background: linear-gradient(
+		rgba(182,149,128,.4),rgba(182,149,128,.4)), 
+		url(img/coffee-beans-from-above_4460x4460.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+header > h1 {
+	font-family: 'Pacifico', cursive;
+	-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);    
+    display: inline-block;
+    color: #FCD6A5;
+    text-shadow: 2px 2px 0px #402F28;
+    font-size: 50px;
+}
+
+section {
 	display: inline-block;
 	float: right;
 	width: 22%;
@@ -14,4 +64,36 @@
 	border-radius: 5px;
 	min-height: 50px;
 }
-*/
+
+section > h2 {
+	color: rgba(222, 184, 135, 1);
+   	font-family: 'Pacifico', cursive;
+   	color: #8B4513;
+   	margin-bottom: 20px;
+}
+
+nav {
+	font-family: 'Pacifico', cursive;
+	float: right;
+}
+
+nav > a {
+	color: rgba(222, 184, 135, 1);
+	text-decoration: none;
+	font-size: 25px;
+	text-shadow: .7px .7px 0px #8B4513;
+}
+
+nav > a:hover {
+	color: rgba(252, 214, 165, 1);
+}
+
+nav > a.active {
+	color: #FCD6A5;
+}
+
+.button {
+	color: #402F28;
+	background-color: #B69580;
+	border: none;
+}
