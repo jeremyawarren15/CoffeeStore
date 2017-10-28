@@ -78,6 +78,8 @@ footer {
 	float: right;
 	width: 25%;
 	line-height: 30px;
+	min-width: 180px;
+	margin-left: 25px;
 }
 
 section > h2 {
